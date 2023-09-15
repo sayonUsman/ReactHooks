@@ -34,11 +34,7 @@ const ExampleIV = () => {
           Increment
         </button>
 
-        <button
-          style={{ marginRight: "15px" }}
-          type="button"
-          onClick={() => dispatch("decrement")}
-        >
+        <button type="button" onClick={() => dispatch("decrement")}>
           Decrement
         </button>
       </div>
